@@ -42,3 +42,5 @@ def index_post():
                 continue
             break
     return send_file(directory_path_and_file_name, mimetype='image/png')
+
+
